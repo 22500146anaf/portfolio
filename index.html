@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ana Flávia — Developer &amp; IT student</title>
+  <meta name="description" content="Ana Flávia, developer and IT student at COTEMIG heading into cybersecurity. Websites and web applications with JavaScript, HTML, CSS, C# and MySQL." />
+  <meta name="theme-color" content="#4a0a12" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Ana Flávia — Developer &amp; IT student" />
+  <meta property="og:description" content="Websites and web applications with JavaScript, HTML, CSS, C# and MySQL. Heading into cybersecurity." />
+  <meta property="og:image" content="assets/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Federo&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <script>
+    if (localStorage.getItem("theme") === "light") document.documentElement.dataset.theme = "light";
+    document.documentElement.lang = localStorage.getItem("lang") || (navigator.language.toLowerCase().startsWith("pt") ? "pt-BR" : "en");
+  </script>
+</head>
+<body>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-mail" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" d="M3 5.5h18v13H3z M3.5 6l8.5 7 8.5-7"/></symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.38-1.47-.88-.79-1.47-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.6-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.07c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.75-.72 2-1.41.25-.69.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35zM12.05 21.5h-.01a9.43 9.43 0 0 1-4.8-1.32l-.35-.2-3.57.93.95-3.48-.22-.36a9.43 9.43 0 0 1-1.45-5.03c0-5.21 4.24-9.45 9.46-9.45 2.52 0 4.9.99 6.68 2.77a9.4 9.4 0 0 1 2.77 6.69c0 5.21-4.24 9.45-9.46 9.45zm8.04-17.5A11.3 11.3 0 0 0 12.05.67C5.78.67.68 5.77.68 12.04c0 2 .52 3.96 1.52 5.68L.58 23.62l6.04-1.58a11.33 11.33 0 0 0 5.43 1.38h.01c6.27 0 11.37-5.1 11.37-11.37 0-3.04-1.18-5.9-3.33-8.04z"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/><circle cx="12" cy="12" r="4.3"/></g><circle cx="17.6" cy="6.4" r="1.2" fill="currentColor"/></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.83-.26.83-.57v-2.02c-3.34.73-4.04-1.6-4.04-1.6-.55-1.4-1.34-1.77-1.34-1.77-1.08-.74.09-.73.09-.73 1.2.09 1.83 1.24 1.83 1.24 1.07 1.83 2.8 1.3 3.49 1 .1-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18a4.65 4.65 0 0 1 1.23 3.22c0 4.61-2.8 5.63-5.48 5.92.42.36.81 1.1.81 2.22v3.29c0 .32.21.7.82.58A12 12 0 0 0 12 .3"/></symbol>
+  </svg>
+
+  <a href="#main" class="skip-link" data-i18n="skip">Skip to content</a>
+
+  <header class="navbar">
+    <a href="#hero" class="navbar__logo">Portfólio.</a>
+    <div class="navbar__end">
+    <nav class="navbar__links" aria-label="Main">
+      <a href="#about" class="navbar__link" data-i18n="nav.about">About me</a>
+      <a href="#projects" class="navbar__link" data-i18n="nav.projects">Projects</a>
+      <a href="#contact" class="navbar__link" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <button type="button" class="lang-toggle" aria-label="Mudar para português">PT</button>
+    <button type="button" class="theme-toggle" aria-label="Switch to light mode">
+      <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+    </button>
+    </div>
+  </header>
+  <div class="garland" aria-hidden="true"></div>
+
+  <main id="main">
+    <section id="hero" class="hero">
+      <div class="hero__content">
+        <h1 class="hero__name">Ana<br />Flávia</h1>
+        <p class="hero__role" data-i18n="hero.role">Developer &amp; IT student</p>
+        <p class="hero__description" data-i18n="hero.desc">
+          I build websites and web applications with JavaScript, HTML, CSS, C# and MySQL, and I'm heading into cybersecurity.
+        </p>
+        <div class="hero__actions">
+          <a href="#projects" class="btn" data-i18n="hero.work">See my work</a>
+          <a href="#contact" class="btn btn--ghost" data-i18n="hero.touch">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero__photo">
+        <img src="" alt="Portrait of Ana Flávia" class="hero__photo-img" data-i18n-alt="hero.alt" fetchpriority="high" />
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="about__left">
+        <h2 class="section-title" data-i18n="nav.about">About me</h2>
+        <p class="about__lead" data-i18n="about.lead">
+          My name is Ana Flávia Fernandes da Silva. Since entering COTEMIG,
+          I have built a continuous trajectory of learning and growth in the
+          technology sector, expanding my skills and passion for the field
+          every day.
+        </p>
+      </div>
+      <div class="about__right">
+        <p data-i18n="about.p1">I'm driven by curiosity about technology and by the goal of building
+          projects that make a real difference.</p>
+        <p data-i18n="about.p2">I'm a second-year high school student at COTEMIG with a deep passion
+          for technology and the digital world. I keep learning and growing in
+          software development, working mainly with JavaScript and C#.</p>
+        <p data-i18n="about.p3">My goal is to build a career in Cybersecurity, protecting people and
+          systems, and I'm building the technical foundation for it one project
+          at a time.</p>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2 class="section-title section-title--center" data-i18n="skills.title">Skills &amp; Experience</h2>
+
+      <div class="skills__layout">
+        <div class="skills__gallery">
+          <span class="skills__gallery-cell" data-pos="0"><img src="" alt="" class="skills__gallery-img" loading="lazy" decoding="async" /></span>
+          <span class="skills__gallery-cell" data-pos="1"><img src="" alt="" class="skills__gallery-img" loading="lazy" decoding="async" /></span>
+          <span class="skills__gallery-cell" data-pos="2"><img src="" alt="" class="skills__gallery-img" loading="lazy" decoding="async" /></span>
+          <span class="skills__gallery-cell" data-pos="3"><img src="" alt="" class="skills__gallery-img" loading="lazy" decoding="async" /></span>
+        </div>
+
+        <ol class="timeline">
+          <li class="timeline__item">
+            <p class="timeline__when">COTEMIG, 2025</p>
+            <h3 class="timeline__title" data-i18n="tl1.title">School Ambassador</h3>
+            <p data-i18n="tl1.text">Working closely with students, teachers and the school administration,
+              helping organize school events, fairs and projects.</p>
+            <ul class="timeline__list">
+              <li data-i18n="tl1.l1">Organizing events and school activities</li>
+              <li data-i18n="tl1.l2">Supporting and assisting students</li>
+              <li data-i18n="tl1.l3">Solving questions and unexpected situations</li>
+              <li data-i18n="tl1.l4">Keeping track of schedules and projects</li>
+              <li data-i18n="tl1.l5">Teamwork and communication with different audiences</li>
+            </ul>
+          </li>
+          <li class="timeline__item">
+            <p class="timeline__when">COTEMIG, 2026</p>
+            <h3 class="timeline__title" data-i18n="tl2.title">Technical High School in IT</h3>
+            <p data-i18n="tl2.text">Second year, focused on software development.</p>
+          </li>
+        </ol>
+      </div>
+
+      <div class="folders">
+        <p class="folders__hint" data-i18n="folders.hint">Open a folder to see what's inside.</p>
+        <div class="folders__grid">
+          <button class="folder" data-skill="programming" type="button">
+            <span class="folder__label" data-i18n="skill.programming">Programming &amp; Web</span>
+            <svg class="folder__icon" viewBox="0 0 64 48" aria-hidden="true"><rect x="10" y="6" width="44" height="28" rx="2"/><path d="M4 40h56l-4 4H8z"/><path d="M26 16l-6 4 6 4M38 16l6 4-6 4M34 13l-4 14"/></svg>
+          </button>
+          <button class="folder" data-skill="data" type="button">
+            <span class="folder__label" data-i18n="skill.data">Data &amp; Productivity</span>
+            <svg class="folder__icon" viewBox="0 0 64 48" aria-hidden="true"><path d="M8 42h48M12 42V26M22 42V16M32 42V22M42 42V10M52 42V18"/><path d="M12 22l10-10 10 6 10-12 10 8" stroke-dasharray="2 3"/></svg>
+          </button>
+          <button class="folder" data-skill="ai" type="button">
+            <span class="folder__label" data-i18n="skill.ai">Artificial Intelligence</span>
+            <svg class="folder__icon" viewBox="0 0 64 48" aria-hidden="true"><circle cx="14" cy="12" r="3"/><circle cx="14" cy="36" r="3"/><circle cx="32" cy="8" r="3"/><circle cx="32" cy="24" r="3"/><circle cx="32" cy="40" r="3"/><circle cx="50" cy="24" r="3"/><path d="M17 12l12-4M17 12l12 12M17 36l12-12M17 36l12 4M35 8l12 16M35 24h12M35 40l12-16"/></svg>
+          </button>
+          <button class="folder" data-skill="cybersecurity" type="button">
+            <span class="folder__label" data-i18n="skill.cybersecurity">Cybersecurity</span>
+            <svg class="folder__icon" viewBox="0 0 64 48" aria-hidden="true"><path d="M32 4l16 6v12c0 10-7 18-16 22-9-4-16-12-16-22V10z"/><rect x="25" y="22" width="14" height="10" rx="1"/><path d="M28 22v-4a4 4 0 0 1 8 0v4"/></svg>
+          </button>
+          <button class="folder" data-skill="soft-skills" type="button">
+            <span class="folder__label" data-i18n="skill.soft-skills">Soft Skills</span>
+            <svg class="folder__icon" viewBox="0 0 64 48" aria-hidden="true"><circle cx="18" cy="26" r="5"/><path d="M8 46c0-7 4-11 10-11s10 4 10 11"/><circle cx="46" cy="26" r="5"/><path d="M36 46c0-7 4-11 10-11s10 4 10 11"/><path d="M6 4h20v10H14l-4 4v-4H6zM38 6h20v10h-4v4l-4-4H38z"/></svg>
+          </button>
+          <button class="folder" data-skill="languages" type="button">
+            <span class="folder__label" data-i18n="skill.languages">Languages</span>
+            <svg class="folder__icon" viewBox="0 0 64 48" aria-hidden="true"><circle cx="32" cy="24" r="18"/><ellipse cx="32" cy="24" rx="8" ry="18"/><path d="M14 24h36M17 14h30M17 34h30"/></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2 class="section-title section-title--center" data-i18n="nav.projects">Projects</h2>
+      <p class="section-note" data-i18n="projects.note">
+        More projects on <a href="https://github.com/22500146anaf" target="_blank" rel="noopener" class="link">GitHub</a>.
+      </p>
+      <div class="projects__grid">
+        <div class="projects__track">
+          <article class="project-card" data-pos="0"><img src="" alt="" class="project-card__img" loading="lazy" decoding="async" /></article>
+          <article class="project-card" data-pos="1"><img src="" alt="" class="project-card__img" loading="lazy" decoding="async" /></article>
+          <article class="project-card" data-pos="2"><img src="" alt="" class="project-card__img" loading="lazy" decoding="async" /></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="garland garland--contact" aria-hidden="true"></div>
+  <section id="contact" class="contact">
+    <h2 class="section-title section-title--center" data-i18n="nav.contact">Contact</h2>
+    <p class="contact__headline" data-i18n="contact.headline">Let's build something real, with real impact.</p>
+    <p class="contact__hint" data-i18n="contact.hint">Pick a channel or send a message. I'll reply as soon as I can.</p>
+
+    <div class="contact__panel">
+      <div class="contact__channels">
+        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=anafiisilva8@gmail.com" target="_blank" rel="noopener" class="channel">
+          <svg class="channel__icon"><use href="#i-mail"/></svg>
+          <span><span class="channel__name" data-i18n="field.email">Email</span><span class="channel__value">anafiisilva8@gmail.com</span></span>
+        </a>
+        <a href="https://wa.me/5531998865812" target="_blank" rel="noopener" class="channel">
+          <svg class="channel__icon"><use href="#i-whatsapp"/></svg>
+          <span><span class="channel__name">WhatsApp</span><span class="channel__value">+55 (31) 99886-5812</span></span>
+        </a>
+        <a href="https://www.linkedin.com/in/ana-fl%C3%A1via-fernandesdasilva/" target="_blank" rel="noopener" class="channel">
+          <svg class="channel__icon"><use href="#i-linkedin"/></svg>
+          <span><span class="channel__name">LinkedIn</span><span class="channel__value">Ana Flávia Fernandes da Silva</span></span>
+        </a>
+        <a href="https://www.instagram.com/anadeflavia" target="_blank" rel="noopener" class="channel">
+          <svg class="channel__icon"><use href="#i-instagram"/></svg>
+          <span><span class="channel__name">Instagram</span><span class="channel__value">@anadeflavia</span></span>
+        </a>
+      </div>
+
+      <p class="contact__divider" data-i18n="contact.divider">or write to me</p>
+
+      <form class="contact__form" action="https://formspree.io/f/mzedralr" method="POST" novalidate>
+        <div class="field">
+          <label for="name" data-i18n="field.name">Name</label>
+          <input type="text" id="name" name="name" placeholder="What should I call you?" data-i18n-placeholder="ph.name" autocomplete="name" required />
+        </div>
+        <div class="field">
+          <label for="email" data-i18n="field.email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" data-i18n-placeholder="ph.email" autocomplete="email" required />
+        </div>
+        <div class="field">
+          <label for="telephone" data-i18n="field.phone">Phone <span class="field__opt">(optional)</span></label>
+          <input type="tel" id="telephone" name="telephone" autocomplete="tel" />
+        </div>
+        <div class="field">
+          <label for="linkedin" data-i18n="field.linkedin">LinkedIn <span class="field__opt">(optional)</span></label>
+          <input type="text" inputmode="url" id="linkedin" name="linkedin" placeholder="linkedin.com/in/…" />
+        </div>
+        <div class="field field--wide">
+          <label for="message" data-i18n="field.message">Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Tell me briefly what you have in mind." data-i18n-placeholder="ph.message" required></textarea>
+        </div>
+        <div class="contact__submit">
+          <p class="form-status" role="status" aria-live="polite"></p>
+          <button type="submit" class="btn" data-i18n="form.send">Send message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 Ana Flávia Fernandes da Silva</p>
+  </footer>
+
+  <dialog class="skill-dialog" aria-labelledby="skill-dialog-title">
+    <div class="skill-dialog__sheet">
+      <h3 id="skill-dialog-title" class="skill-dialog__title"></h3>
+      <ul class="skill-dialog__list"></ul>
+      <button type="button" class="skill-dialog__close btn btn--ghost-dark" data-i18n="dialog.close">Close</button>
+    </div>
+  </dialog>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
